@@ -1,0 +1,93 @@
+html{
+    font-family:'Outfit', sans-serif;
+    margin: 0;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.imagen{
+    width: 50vw;
+    height: 100vh;
+    background-image: url(/login/isaac-maffeis-l90GqjhUh7A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.lado-login{
+    font-weight:lighter;
+    width: 50vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #2d3250;
+    color: #ffffff;
+}
+.input{
+    background-color: #424769;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+.input::placeholder{
+    color: azure;
+}
+.input:focus{
+border-left: 4px solid rgb(205, 168, 101);
+}
+
+
+
+
+
+
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-size: 12px;
+}
+.opciones label{
+    display: flex;
+    align-items: center; /*centra verticalmente el check y el texto */
+    gap: 5px; /*espacio entre el check y el texto */
+    margin: 0; /* por si hay margenes ocultos*/
+}
+.opciones a{
+    text-decoration: none;
+    color:#63698b;
+    margin: 0;
+}
+.opciones a:hover{
+    color: bisque;
+}
+
+button{
+margin-top: 10px;
+padding: 10px 60px;
+background-color: #f5c25c;
+color: #000;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+align-self: center;
+}
+
+.not-account{
+    font-size: 12px;
+    width: 238px;
+}
+.not-account a{
+    font-weight: bold;
+    text-decoration: none;
+    margin-left:5px;
+    color: azure;
+}
