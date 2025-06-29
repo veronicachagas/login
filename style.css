@@ -12,7 +12,7 @@ body{
 .imagen{
     width: 50vw;
     height: 100vh;
-    background-image: url(/login/isaac-maffeis-l90GqjhUh7A-unsplash.jpg);
+    background-image: url(/img/isaac-maffeis-l90GqjhUh7A-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -50,9 +50,11 @@ border-left: 4px solid rgb(205, 168, 101);
 
 .opciones{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap:30px ;
     width: 50%;
+    margin-top: 10px;
     font-size: 12px;
 }
 .opciones label{
@@ -83,7 +85,7 @@ align-self: center;
 
 .not-account{
     font-size: 12px;
-    width: 238px;
+    width: 239px;
 }
 .not-account a{
     font-weight: bold;
